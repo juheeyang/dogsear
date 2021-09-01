@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api_signup</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+
+<body>
+    <h1><a href="api_index.html">api명세서</a></h1>
+    <h1>User</h1>
+    <h2>sign up</h2>
+    <p class="content">
+        <span class="post">Post</span>
+        <span class="url">/api/user</span>
+    </p>
+
+    <ul class="list">
+        <li class="request">
+            <p>Request</p>
+        </li>
+        <div class="content">
+            {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;“email”:”adsf1111@gmail.com”,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;“password”:”asdf1234!!”,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;“nickname”:”닉네임”<br>
+            }
+        </div>
+
+
+        <li>
+            <p class="response">Response</p>
+        </li>
+        <div class="content">
+            {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;"email": "admin",<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;"nickname": "asdf",<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;"image": null,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;"authorities": [<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;{<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"authorityName": "ROLE_USER"<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;]<br>
+            }
+        </div>
+
+
+    </ul>
+</body>
+
+</html>
